@@ -10,3 +10,5 @@ while True:
     else:
         print("Terima Kasih💖!!")
         break
+
+print('hai')
