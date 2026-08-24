@@ -12,4 +12,4 @@ while True:
         break
 
 print('hai')
-#Halo KIDZ
+#Hai KIDZ
