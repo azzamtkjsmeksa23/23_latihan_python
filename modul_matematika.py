@@ -1,11 +1,22 @@
-def ganjil_genap(num):
-    if num % 2 == 0:
-        return True
+def ganjil_genap(ti):
+    if ti % 2 == 0:
+        print("Angka Genap")
     else:
-        return False
+        print("Angka Ganjil")
 
-def bilangan_prima(num):
-    if num < 2:
-        return False
+def bilangan_prima(ya):
+    if ya < 2:
+        print("Bukan Prima")
     else:
-        return True
+        print("Prima")
+
+def tamkuli(tak, kul):
+    tambah = tak + kul
+    kurang = tak - kul
+    kali = tak * kul
+    bagi = tak / kul
+
+    print("tambah: ", tambah)
+    print("kurang: ", kurang)
+    print("kali: ", kali)
+    print("bagi: ", bagi)

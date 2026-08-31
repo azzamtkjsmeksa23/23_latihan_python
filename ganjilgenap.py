@@ -1,7 +1,8 @@
-def ganjil_genap(x):
+gj = print()
+def ganjil_genap(gj):
     while True:
-        x = int(input("Masukkan angkah: "))
-        if x % 2 == 0:
+        gj = int(input("Masukkan Angkah: "))
+        if gj % 2 == 0:
             print("itu adalah angka genap")
         else:
             print("itu adalah angka ganjil")
@@ -15,3 +16,6 @@ def ganjil_genap(x):
         else:
             print("kemu dek")
             continue
+
+if __name__ == "__main__":
+    ganjil_genap(gj)
