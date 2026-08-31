@@ -6,9 +6,14 @@ def ganjil_genap(ti):
 
 def bilangan_prima(ya):
     if ya < 2:
-        print("Bukan Prima")
-    else:
-        print("Prima")
+        print(ya, "Bukan Prima")
+        return False
+    for i in range(2, int(n**0.5) + 1):
+        if ya % i == 0:
+            print(ya, "bukan bilangan prima")
+            return False
+    print(ya, "adalah bilangan prima")
+    return True
 
 def tamkuli(tak, kul):
     tambah = tak + kul
