@@ -1,4 +1,5 @@
-import modul_matematika
+import ganjilgenap
 
-if __name__ == '__main__':
-    main()
+gg = ganjilgenap(x)
+
+print(gg)
