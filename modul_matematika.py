@@ -8,7 +8,7 @@ def bilangan_prima(ya):
     if ya < 2:
         print(ya, "Bukan Prima")
         return False
-    for i in range(2, int(n**0.5) + 1):
+    for i in range(2, int(ya**0.5) + 1):
         if ya % i == 0:
             print(ya, "bukan bilangan prima")
             return False
