@@ -1,6 +1,9 @@
 import ganjilgenap as gg
 import modul_matematika as mm
 import modul_BangunRuang as Mb
+import autentikasi as aut
+
+print(aut.main_menu())
 
 print("Pilih rumus matematika\n1. ganjil genap\n2. Bilangan prima\n3. tambah kali kurang bagi\n4. Keliling Persegi\n5. Luas Segitiga")
 
